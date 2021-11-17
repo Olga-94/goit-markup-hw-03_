@@ -407,6 +407,7 @@ body {
   list-style: none;
   align-content: center;
   min-width: 370px;
+  padding-bottom: 94px;
 }
 .card-set li:nth-child(3n) {
   margin-right: 0;
