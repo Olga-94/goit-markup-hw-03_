@@ -81,7 +81,7 @@ body {
 
 .nav-list-link {
   color: var(--title-primary-color);
-
+  display: block;
 }
 
 .contacts-color {
@@ -106,20 +106,23 @@ body {
   margin-right: 93px;
   padding: 24px 0px;
 }
+
 .site-nav {
   display: flex;
   align-items: center;
 }
+
 .nav-list {
   display: flex;
+  /* align-items: center; */
 }
 
 .header-address-list {
   display: flex;
-  margin-right: 0px;
+  /* margin-right: 0px; */
 }
 
-.header-address-link:not(:last-child) {
+.header-address-list-item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -127,8 +130,8 @@ body {
   margin-left: auto;
 }
 
-.nav-list-item:not(:last-child) {
-  margin-right: 52px;
+.nav-list-item:not(:first-child) {
+  margin-left: 52px;
 }
 /*===========END HEADER=========*/
 
@@ -311,7 +314,7 @@ body {
 }
 
 .card-description {
-  padding: 30px 30px;
+  padding: 32px;
 }
 /*===========END SECTION OUR TEAM=========*/
 
